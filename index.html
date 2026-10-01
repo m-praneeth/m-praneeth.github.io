@@ -1,483 +1,89 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Praneeth Madura – Techno-Functional Odoo ERP Consultant</title>
-<meta name="description" content="Praneeth Madura is a techno-functional Odoo ERP consultant in Sri Lanka with 100+ Odoo projects delivered across Odoo 11 to 20: full ERP implementation, custom development and integrations.">
-<meta property="og:title" content="Praneeth Madura – Odoo ERP Consultant">
-<meta property="og:description" content="Full Odoo ERP implementation, custom development and integrations. 100+ projects delivered.">
-<meta property="og:image" content="praneeth-madura.jpg">
-<meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23152238'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%23A9C3D6' text-anchor='middle'%3EPM%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap">
-<style>
-:root{
-  --navy:#152238; --navy-2:#1D2C47; --line-dark:#3C4B6B;
-  --blue:#1F5A7A; --blue-dark:#174760; --mist:#A9C3D6;
-  --ink:#152238; --body:#3A4256; --muted:#5A6275;
-  --bg:#F7F7F5; --card:#FFFFFF; --chip:#EDF0F4; --ring:#E3EAF1; --rule:#DCD3C5; --border:#E6E1D8;
-  --serif:'Source Serif 4',Georgia,serif; --sans:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
-  --pad:clamp(20px,5.5vw,80px);
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
-a{color:var(--blue)}
-h1,h2,h3{font-family:var(--serif);font-weight:700;color:var(--ink);margin:0;text-wrap:balance}
-p{margin:0;text-wrap:pretty}
-.wrap{max-width:1440px;margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
-.eyebrow{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-.btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:16px;text-decoration:none;transition:background .15s,color .15s,transform .15s}
-.btn:hover{transform:translateY(-1px)}
-.btn:focus-visible,.nav a:focus-visible{outline:3px solid var(--mist);outline-offset:3px}
-.btn-primary{background:var(--blue);color:#fff}.btn-primary:hover{background:var(--blue-dark)}
-.btn-outline{background:#fff;color:var(--ink);border:2px solid var(--ink)}.btn-outline:hover{background:var(--chip)}
-.btn-dark{background:var(--navy);color:#fff}.btn-dark:hover{background:#0c1525}
-.btn-light{background:#fff;color:var(--ink)}.btn-light:hover{background:var(--chip)}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
+    <title>Page not found &middot; GitHub Pages</title>
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f1f1f1;
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
 
-/* nav */
-.nav{position:sticky;top:0;z-index:10;background:rgba(247,247,245,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
-.brand-mark{width:44px;height:44px;border-radius:12px;background:var(--navy);color:var(--mist);display:grid;place-items:center;font-family:var(--serif);font-weight:700;font-size:18px}
-.brand-name{font-family:var(--serif);font-weight:700;font-size:20px}
-.nav-links{display:flex;align-items:center;gap:28px}
-.nav-links a{color:var(--body);text-decoration:none;font-weight:500;padding:10px 0}
-.nav-links a:hover{color:var(--ink)}
-.nav-links .btn{color:#fff;padding:10px 22px}
-.menu-toggle{display:none;background:none;border:2px solid var(--ink);border-radius:10px;width:48px;height:48px;align-items:center;justify-content:center;cursor:pointer;color:var(--ink)}
+      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
 
-/* hero */
-.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;padding-top:72px;padding-bottom:88px}
-.hero-copy{display:flex;flex-direction:column;gap:24px}
-.hero .eyebrow{display:flex;align-items:center;gap:10px;color:var(--blue)}
-.hero .eyebrow::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--blue)}
-.hero h1{font-size:clamp(40px,5.6vw,68px);line-height:1.04;letter-spacing:-.015em}
-.hero h1 em{font-style:normal;color:var(--blue)}
-.hero-lead{font-size:clamp(17px,1.5vw,20px);color:var(--body);max-width:560px}
-.actions{display:flex;flex-wrap:wrap;gap:14px}
-.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:8px}
-.stat{background:var(--chip);border-radius:16px;padding:18px 20px}
-.stat b{display:block;font-family:var(--serif);font-size:clamp(28px,3vw,36px);line-height:1.1;color:#22304A}
-.stat span{font-size:14px;font-weight:500;color:#22304A}
-.hero-photo{position:relative;justify-self:center;width:min(100%,470px);aspect-ratio:1/1.12}
-.hero-photo .halo{position:absolute;inset:0 0 auto 0;aspect-ratio:1;border-radius:50%;background:var(--ring)}
-.hero-photo .frame{position:absolute;left:7.5%;top:7.5%;width:85%;aspect-ratio:1;border-radius:50%;overflow:hidden;border:8px solid var(--navy);background:#fff}
-.hero-photo .frame img{width:100%;height:100%;object-fit:cover;object-position:50% 35%}
-.badge{position:absolute;left:38%;bottom:0;display:flex;align-items:center;gap:12px;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:0 10px 30px rgba(21,34,56,.14)}
-.badge-icon{width:40px;height:40px;border-radius:10px;background:var(--chip);display:grid;place-items:center;flex-shrink:0}
-.badge strong{display:block;font-size:15px;color:var(--ink);line-height:1.3}
-.badge small{display:block;font-size:13px;color:#4F5870;line-height:1.3}
+      a { color: #4183c4; text-decoration: none; }
+      a:hover { text-decoration: underline; }
 
-/* industries */
-.band{background:var(--navy)}
-.band .wrap{display:flex;align-items:center;gap:28px;padding-top:32px;padding-bottom:32px}
-.band .eyebrow{color:var(--mist);white-space:nowrap}
-.pills{display:flex;flex-wrap:wrap;gap:12px}
-.pill{border:1.5px solid var(--line-dark);color:#fff;font-size:15px;font-weight:500;padding:9px 18px;border-radius:999px}
+      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
+      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
 
-/* sections */
-section.block{padding-top:clamp(64px,8vw,96px);padding-bottom:clamp(64px,8vw,96px)}
-.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-bottom:48px}
-.section-head > div{display:flex;flex-direction:column;gap:14px}
-.section-head h2,.split h2{font-size:clamp(32px,3.6vw,48px);line-height:1.1;max-width:640px}
-.section-head p{font-size:18px;color:var(--body);max-width:460px}
-.services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
-.card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:14px}
-.card-icon{width:52px;height:52px;border-radius:14px;background:var(--chip);display:grid;place-items:center}
-.card h3{font-size:22px;line-height:1.25}
-.card p{font-size:16px;color:var(--body)}
+      ul { list-style: none; margin: 25px 0; padding: 0; }
+      li { display: table-cell; font-weight: bold; width: 1%; }
 
-.dark{background:var(--navy)}
-.split{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;align-items:center}
-.split-copy{display:flex;flex-direction:column;gap:18px}
-.dark .eyebrow{color:var(--mist)}
-.dark h2{color:#fff}
-.dark p{font-size:18px;color:#C9D1E0}
-.chips{display:flex;flex-wrap:wrap;gap:12px}
-.chip-dark{background:var(--navy-2);border:1px solid var(--line-dark);color:#fff;font-size:16px;font-weight:500;padding:12px 20px;border-radius:10px}
+      .logo { display: inline-block; margin-top: 35px; }
+      .logo-img-2x { display: none; }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) {
+        .logo-img-1x { display: none; }
+        .logo-img-2x { display: inline-block; }
+      }
 
-.exp{display:grid;grid-template-columns:360px minmax(0,1fr);gap:64px}
-.exp-intro{display:flex;flex-direction:column;gap:14px}
-.exp-intro p{font-size:18px;color:var(--body)}
-.timeline{list-style:none;margin:0;padding:0}
-.timeline > li{display:grid;grid-template-columns:200px minmax(0,1fr);gap:24px;padding:24px 0;border-top:1px solid var(--rule)}
-.timeline > li:first-child{border-top:2px solid var(--ink)}
-.timeline > li:last-child{border-bottom:1px solid var(--rule)}
-.when{font-size:15px;font-weight:700;color:var(--muted)}
-.role{display:flex;flex-direction:column;gap:6px}
-.role h3{font-size:clamp(20px,2vw,24px)}
-.role .org{font-size:16px;font-weight:700;color:var(--blue)}
-.role p{font-size:16px;color:var(--body)}
+      #suggestions {
+        margin-top: 35px;
+        color: #ccc;
+      }
+      #suggestions a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
 
-.teach{background:var(--chip);border-radius:28px;padding:clamp(28px,4vw,56px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;align-items:center}
-.teach-copy{display:flex;flex-direction:column;gap:14px}
-.teach .eyebrow{color:var(--blue)}
-.teach h2{font-size:clamp(28px,3.2vw,44px);line-height:1.12}
-.teach-cards{display:flex;flex-direction:column;gap:16px}
-.teach-card{background:#fff;border-radius:16px;padding:20px 22px}
-.teach-card strong{display:block;font-size:17px;margin-bottom:4px}
-.teach-card p{font-size:16px;color:var(--body)}
+    </style>
+  </head>
+  <body>
 
-.contact{background:var(--blue)}
-.contact .wrap{display:flex;flex-direction:column;gap:26px;padding-top:clamp(64px,8vw,96px);padding-bottom:clamp(64px,8vw,96px)}
-.contact h2{color:#fff;font-size:clamp(36px,5vw,64px);line-height:1.05;max-width:900px}
-.contact p{color:#DCE6EF;font-size:clamp(17px,1.5vw,20px);max-width:680px}
+    <div class="container">
 
-footer{background:var(--navy);color:#C9D1E0;font-size:15px}
-footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:26px;padding-bottom:26px}
+      <h1>404</h1>
+      <p><strong>File not found</strong></p>
 
-/* skills */
-.skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
-.skill-group{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:16px}
-.skill-group h3{font-size:20px}
-.skill-wide{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 24px}
-.skill-wide h3{grid-column:1/-1}
-.mod-group{display:flex;flex-direction:column;gap:8px}
-.mod-group small{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.tags{display:flex;flex-wrap:wrap;gap:8px}
-.tag{background:var(--chip);color:#22304A;font-size:14.5px;font-weight:500;padding:6px 12px;border-radius:8px}
-.role ul{margin:4px 0 0;padding-left:18px;color:var(--body);font-size:16px}
-.role li{margin-bottom:4px}
-.role li::marker{color:var(--blue)}
-.edu{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px 22px;display:flex;flex-direction:column;gap:4px;margin-top:12px}
-.edu small{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.edu strong{font-size:16px;line-height:1.4}
-.edu span{font-size:15px;color:var(--blue);font-weight:500}
+      <p>
+        The site configured at this address does not
+        contain the requested file.
+      </p>
 
-/* tablet */
-@media (max-width:1080px){
-  .services{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .skills{grid-template-columns:1fr}
-  .skill-wide{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .exp{grid-template-columns:1fr;gap:32px}
-  .section-head{flex-direction:column;align-items:flex-start;gap:16px}
-}
-@media (max-width:900px){
-  .hero{grid-template-columns:1fr;gap:40px;padding-top:40px;padding-bottom:64px}
-  .hero-photo{order:-1;width:min(80%,360px)}
-  .split,.teach{grid-template-columns:1fr;gap:32px}
-  .band .wrap{flex-direction:column;align-items:flex-start;gap:16px}
-  .menu-toggle{display:inline-flex}
-  .nav-links{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;background:var(--bg);border-bottom:1px solid var(--border);padding:8px var(--pad) 20px}
-  .nav-links a{padding:14px 0;border-bottom:1px solid var(--border)}
-  .nav-links .btn{margin-top:14px;justify-content:center;border-bottom:0}
-  .nav.open .nav-links{display:flex}
-}
-/* phone */
-@media (max-width:600px){
-  body{font-size:16px}
-  .services{grid-template-columns:1fr}
-  .skill-wide{grid-template-columns:1fr}
-  .stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-  .stat{padding:14px 12px}
-  .stat span{font-size:12.5px;display:block;line-height:1.35}
-  .timeline > li{grid-template-columns:1fr;gap:6px}
-  .badge{left:auto;right:-4%;padding:10px 14px}
-  .actions .btn,.contact .btn{width:100%;justify-content:center}
-  .brand-name{font-size:18px}
-}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.btn:hover{transform:none}}
-</style>
-</head>
-<body>
+      <p>
+        If this is your site, make sure that the filename case matches the URL
+        as well as any file permissions.<br>
+        For root URLs (like <code>http://example.com/</code>) you must provide an
+        <code>index.html</code> file.
+      </p>
 
-<header class="nav" id="nav">
-  <div class="wrap">
-    <a class="brand" href="#top" aria-label="Praneeth Madura, home">
-      <span class="brand-mark" aria-hidden="true">PM</span>
-      <span class="brand-name">Praneeth Madura</span>
-    </a>
-    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-    </button>
-    <nav class="nav-links" id="nav-links" aria-label="Main">
-      <a href="#services">Services</a>
-      <a href="#skills">Skills</a>
-      <a href="#integrations">Integrations</a>
-      <a href="#experience">Experience</a>
-      <a href="#teaching">Teaching</a>
-      <a class="btn btn-dark" href="#contact">Get in touch</a>
-    </nav>
-  </div>
-</header>
+      <p>
+        <a href="https://help.github.com/pages/">Read the full documentation</a>
+        for more information about using <strong>GitHub Pages</strong>.
+      </p>
 
-<main id="top">
-  <section class="wrap hero">
-    <div class="hero-copy">
-      <div class="eyebrow">Techno-Functional Odoo ERP Consultant</div>
-      <h1>Odoo ERP that runs the <em>whole</em> business.</h1>
-      <p class="hero-lead">I design, build and roll out complete Odoo systems, from the first requirements meeting to go-live and user training, with the integrations your team needs to work in one place.</p>
-      <div class="actions">
-        <a class="btn btn-primary" href="#contact">Start a project</a>
-        <a class="btn btn-outline" href="praneeth-madura-cv.pdf" download>Download CV</a>
+      <div id="suggestions">
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
       </div>
-      <div class="stats">
-        <div class="stat"><b>100+</b><span>Odoo projects delivered</span></div>
-        <div class="stat"><b>11–20</b><span>Odoo versions</span></div>
-        <div class="stat"><b>7 yrs</b><span>building on Odoo</span></div>
-      </div>
+
+      <a href="/" class="logo logo-img-1x">
+        <img width="32" height="32" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=">
+      </a>
+
+      <a href="/" class="logo logo-img-2x">
+        <img width="32" height="32" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEQUM1QkUxRUI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQUM1QkUxRkI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdGQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjgwQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hfPRaQAAB6lJREFUeNrsW2mM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">
+      </a>
     </div>
-    <div class="hero-photo">
-      <div class="halo" aria-hidden="true"></div>
-      <div class="frame"><img src="praneeth-madura.jpg" alt="Portrait of Praneeth Madura" width="800" height="800"></div>
-      <div class="badge">
-        <span class="badge-icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1F5A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></span>
-        <span><strong>Odoo lecturer</strong><small>University of Sri Jayewardenepura</small></span>
-      </div>
-    </div>
-  </section>
-
-  <section class="band" aria-label="Industries">
-    <div class="wrap">
-      <div class="eyebrow">Delivered for</div>
-      <div class="pills">
-        <span class="pill">Hotels &amp; hospitality</span>
-        <span class="pill">Apparel</span>
-        <span class="pill">Solar energy</span>
-        <span class="pill">Metal fabrication</span>
-        <span class="pill">Tea blending</span>
-        <span class="pill">Fuel stations</span>
-        <span class="pill">Property management</span>
-        <span class="pill">Microfinance</span>
-        <span class="pill">Education (LMS)</span>
-        <span class="pill">Salon booking</span>
-<span class="pill">Tour guide booking</span>
-        <span class="pill">Healthcare</span>
-        <span class="pill">Export &amp; manufacturing</span>
-        <span class="pill">Industrial trading</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="block" id="services">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <div class="eyebrow">Services</div>
-          <h2>Both sides of Odoo, handled by one person.</h2>
-        </div>
-        <p>Techno-functional means I understand how your business runs and can write the code that makes Odoo fit it.</p>
-      </div>
-      <div class="services">
-        <article class="card">
-          <span class="card-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1F5A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span>
-          <h3>Full ERP implementation</h3>
-          <p>Requirement gathering, workflow design and configuration across all core modules, including Accounting, Sales, Purchase, Inventory, Manufacturing, POS and HR, through go-live and user training.</p>
-        </article>
-        <article class="card">
-          <span class="card-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1F5A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg></span>
-          <h3>Custom Odoo development</h3>
-          <p>Custom modules, UI customisation, QWeb reports and BI dashboards on Odoo 11 to 20, Community and Enterprise.</p>
-        </article>
-        <article class="card">
-          <span class="card-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1F5A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17H7A5 5 0 0 1 7 7h2"/><path d="M15 7h2a5 5 0 0 1 0 10h-2"/><path d="M8 12h8"/></svg></span>
-          <h3>Integrations</h3>
-          <p>Connect Odoo to banks, messaging, attendance devices, POS hardware and any system with an API.</p>
-        </article>
-        <article class="card">
-          <span class="card-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1F5A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="7" rx="2"/><rect x="2" y="14" width="20" height="7" rx="2"/><path d="M6 6.5h.01"/><path d="M6 17.5h.01"/></svg></span>
-          <h3>Deployment &amp; support</h3>
-          <p>Odoo on Linux servers with Docker, PostgreSQL administration, monitoring and maintenance.</p>
-        </article>
-        <article class="card">
-          <span class="card-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1F5A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"></ellipse><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5"></path><path d="M4 11v6c0 1.7 3.6 3 8 3"></path><path d="m17 16 3 3-3 3"></path><path d="M14 19h6"></path></svg></span>
-          <h3>Data migration</h3>
-          <p>Move customers, products, stock, open invoices and opening balances from spreadsheets or legacy systems into Odoo, cleaned and checked.</p>
-        </article>
-        <article class="card">
-          <span class="card-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1F5A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"></path><path d="m5 12 7-7 7 7"></path><path d="M5 21h14"></path></svg></span>
-          <h3>Odoo version upgrades</h3>
-          <p>Upgrade older Odoo versions to the latest release, including custom modules and data, tested before go-live.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="block" id="skills" style="padding-top:0">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <div class="eyebrow">Skills</div>
-          <h2>What I work with every day.</h2>
-        </div>
-        <p>Odoo 11 to 20, Community and Enterprise, on the functional side and the code side.</p>
-      </div>
-      <div class="skills skills-2">
-        <div class="skill-group skill-wide">
-          <h3>Odoo modules</h3>
-          <div class="mod-group"><small>Finance</small><div class="tags"><span class="tag">Accounting</span><span class="tag">Invoicing</span><span class="tag">Expenses</span><span class="tag">Payroll</span><span class="tag">Spreadsheet dashboards</span></div></div>
-          <div class="mod-group"><small>Sales</small><div class="tags"><span class="tag">Sales</span><span class="tag">CRM</span><span class="tag">POS &amp; Restaurant</span><span class="tag">Website</span><span class="tag">eCommerce</span><span class="tag">Subscriptions</span><span class="tag">Rental</span><span class="tag">Loyalty</span><span class="tag">Sign</span></div></div>
-          <div class="mod-group"><small>Supply chain</small><div class="tags"><span class="tag">Inventory</span><span class="tag">Purchase</span><span class="tag">Manufacturing</span><span class="tag">PLM</span><span class="tag">Quality</span><span class="tag">Maintenance</span><span class="tag">Repairs</span><span class="tag">Barcode</span></div></div>
-          <div class="mod-group"><small>HR</small><div class="tags"><span class="tag">Employees</span><span class="tag">Attendance</span><span class="tag">Time Off</span><span class="tag">Recruitment</span><span class="tag">Appraisals</span><span class="tag">Planning</span><span class="tag">Fleet</span></div></div>
-          <div class="mod-group"><small>Services</small><div class="tags"><span class="tag">Project</span><span class="tag">Timesheets</span><span class="tag">Helpdesk</span><span class="tag">Field Service</span><span class="tag">Appointments</span></div></div>
-          <div class="mod-group"><small>Marketing &amp; more</small><div class="tags"><span class="tag">Email Marketing</span><span class="tag">Marketing Automation</span><span class="tag">Events</span><span class="tag">Surveys</span><span class="tag">eLearning</span><span class="tag">Documents</span><span class="tag">Approvals</span><span class="tag">Knowledge</span></div></div>
-        </div>
-        <div class="skill-group">
-          <h3>Odoo development</h3>
-          <div class="tags">
-            <span class="tag">ORM &amp; architecture</span><span class="tag">Custom modules</span><span class="tag">UI customisation</span><span class="tag">QWeb reports</span><span class="tag">BI dashboards</span><span class="tag">Technical documentation</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>Tech stack</h3>
-          <div class="tags">
-            <span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">XML</span><span class="tag">HTML</span><span class="tag">Django</span><span class="tag">PostgreSQL</span><span class="tag">MySQL</span><span class="tag">Linux servers</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Git</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="block dark" id="integrations">
-    <div class="wrap split">
-      <div class="split-copy">
-        <div class="eyebrow">Integrations</div>
-        <h2>If it has an API, Odoo can talk to it.</h2>
-        <p>Built with REST APIs and Odoo webhooks, so data moves between Odoo and your other systems without re-typing.</p>
-      </div>
-      <div class="chips">
-        <span class="chip-dark">Bank payment gateways</span>
-        <span class="chip-dark">WhatsApp</span>
-        <span class="chip-dark">SMS</span>
-        <span class="chip-dark">Biometric &amp; BioTime</span>
-        <span class="chip-dark">POS machines</span>
-        <span class="chip-dark">Barcode scanners</span>
-        <span class="chip-dark">IoT devices</span>
-        <span class="chip-dark">Email</span>
-        <span class="chip-dark">Facebook</span>
-        <span class="chip-dark">REST APIs</span>
-        <span class="chip-dark">Odoo webhooks</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="block" id="experience">
-    <div class="wrap exp">
-      <div class="exp-intro">
-        <div class="eyebrow">Experience</div>
-        <h2 style="font-size:clamp(32px,3.6vw,48px);line-height:1.1">8+ years building software.</h2>
-        <p>From web development to leading full Odoo rollouts.</p>
-        <div class="edu">
-          <small>Education</small>
-          <strong>Bachelor of Information and Communication Technology</strong>
-          <span>University of Jaffna · 2018</span>
-        </div>
-        <div class="edu">
-          <small>Languages</small>
-          <strong>English · Sinhala</strong>
-        </div>
-      </div>
-      <ol class="timeline">
-        <li>
-          <div class="when">Mar 2025 – Present</div>
-          <div class="role">
-            <h3>Techno-Functional Odoo Consultant</h3>
-            <div class="org">Hatchyard (Pvt) Ltd</div>
-            <ul>
-              <li>Leads full ERP implementations across all core Odoo modules, from requirement analysis to go-live and user support</li>
-              <li>Leads the Odoo project team and is the main point of contact for clients</li>
-              <li>Trains and mentors interns in Odoo development and implementation</li>
-              <li>Builds integrations with bank gateways, SMS, WhatsApp, BioTime, POS, barcode and IoT devices</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="when">Jul 2024 – Mar 2025</div>
-          <div class="role">
-            <h3>Techno-Functional Odoo Consultant</h3>
-            <div class="org">Centrics (Pvt) Ltd</div>
-            <p>Odoo implementation projects: client requirements, module configuration and custom development.</p>
-          </div>
-        </li>
-        <li>
-          <div class="when">Sep 2019 – Jun 2024</div>
-          <div class="role">
-            <h3>Full Stack Python / Odoo Developer</h3>
-            <div class="org">Onestep Solutions (Pvt) Ltd</div>
-            <ul>
-              <li>Delivered end-to-end Odoo implementations, from requirement gathering to user training and go-live</li>
-              <li>Built custom Odoo apps, reports and BI dashboards for management teams</li>
-              <li>Deployed and maintained Odoo on Linux servers with Docker; administered PostgreSQL</li>
-              <li>Managed the development team and client relationships</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="when">Mar 2019 – Sep 2019</div>
-          <div class="role">
-            <h3>Full Stack Python Developer</h3>
-            <div class="org">Accura Tech (Pvt) Ltd</div>
-            <p>Web applications with Python, Django, Wagtail and Django Oscar.</p>
-          </div>
-        </li>
-        <li>
-          <div class="when">Feb 2018 – Mar 2019</div>
-          <div class="role">
-            <h3>Full Stack Web Developer</h3>
-            <div class="org">Encyte (Pvt) Ltd</div>
-            <p>Web applications in PHP and JavaScript; Drupal 7 and 8 sites.</p>
-          </div>
-        </li>
-      </ol>
-    </div>
-  </section>
-
-  <section id="teaching" style="padding-bottom:clamp(64px,8vw,96px)">
-    <div class="wrap">
-      <div class="teach">
-        <div class="teach-copy">
-          <div class="eyebrow">Teaching · since 2025</div>
-          <h2>Visiting lecturer in Odoo ERP at the University of Sri Jayewardenepura.</h2>
-        </div>
-        <div class="teach-cards">
-          <div class="teach-card"><strong>Technical</strong><p>Odoo architecture, ORM, custom module development and reporting.</p></div>
-          <div class="teach-card"><strong>Functional</strong><p>How to implement Odoo for a real, practical business, end to end: sales, purchasing, inventory and accounting.</p></div>
-          <div class="teach-card"><strong>Practical case studies</strong><p>Working through real business cases from both the ERP angle and the business angle to design the right solution.</p></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="wrap">
-      <h2>Planning an ERP project? Let’s talk.</h2>
-      <p>Tell me about your business and what you need your ERP to do. I’ll show you how Odoo can fit it.</p>
-      <div class="actions">
-        <a class="btn btn-dark" href="mailto:praneeth.madura@gmail.com">praneeth.madura@gmail.com</a>
-        <a class="btn btn-light" href="https://wa.me/94776277115" target="_blank" rel="noopener">WhatsApp +94 77 627 7115</a>
-        <a class="btn btn-light" href="tel:+94713154340">+94 71 315 4340</a>
-        <a class="btn btn-light" href="praneeth-madura-cv.pdf" download>Download CV</a>
-        <a class="btn btn-light" href="https://www.linkedin.com/in/praneeth-madura" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <div class="wrap">
-    <span>© <span id="year">2026</span> Praneeth Madura · Matugama, Sri Lanka</span>
-    <span>Techno-Functional Odoo ERP Consultant</span>
-  </div>
-</footer>
-
-<script>
-  (function(){
-    var nav=document.getElementById('nav'), btn=nav.querySelector('.menu-toggle');
-    btn.addEventListener('click',function(){
-      var open=nav.classList.toggle('open');
-      btn.setAttribute('aria-expanded',open?'true':'false');
-      btn.setAttribute('aria-label',open?'Close menu':'Open menu');
-    });
-    nav.querySelectorAll('.nav-links a').forEach(function(a){
-      a.addEventListener('click',function(){nav.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu');});
-    });
-    document.getElementById('year').textContent=new Date().getFullYear();
-  })();
-</script>
-</body>
+  </body>
 </html>
